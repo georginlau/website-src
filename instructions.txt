@@ -1,0 +1,37 @@
+# References
+Fengkehh.github.io
+Robertmyles.github.io
+https://github.com/rstudio/blogdown/issues/39
+
+
+######### run once only ######### 
+# 1. Create Github Pagesrepo in Github
+Create <username>.github.io repo, initialize. Clone to rstudio.
+    Rstudio > git bash
+    git add .
+    git commit -m 'delete README.md'
+    git push -u origin master
+
+# 2.Create blog-source repo, do not initialize. Clone to rstudio.
+    library(blogdown); new_site()
+    install_theme('gcushen/hugo-academic', theme_example = TRUE, update_config = TRUE)
+    Replace /content, /static, config.toml 
+    serve_site()
+
+# 3.Create submodule in blog-source repo
+    Rstudio >> Git bash terminal. 
+    rm -rf public
+    git submodule add -b master git@github.com:<username>/<username>.github.io.git public
+    git remote show origin
+
+
+######### every update to Github Pages ######### 
+# Deploy to <username>.github.io (from /public folder)
+build_site()
+Rstudio >> Git bash terminal. 
+    cd public
+    git remote show origin
+    git add -A
+    git commit -m 'new site'
+    git push origin master
+
