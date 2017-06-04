@@ -27,6 +27,7 @@ Create <username>.github.io repo, initialize. Clone to rstudio.
 
 ######### every update to Github Pages ######### 
 # Deploy to <username>.github.io (from /public folder)
+library(blogdown)
 build_site()
 Rstudio >> Git bash terminal. 
     cd public
@@ -35,3 +36,6 @@ Rstudio >> Git bash terminal.
     git commit -m 'new site'
     git push origin master
 
+
+######### backup website-src repository ######### 
+commit, push
