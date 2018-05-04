@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>https://georginlau.github.io/post/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Georgin Lau</copyright>
+    <lastBuildDate>Sun, 07 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://georginlau.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thoughts on TED</title>
+      <link>https://georginlau.github.io/post/thoughts-on-ted/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://georginlau.github.io/post/thoughts-on-ted/</guid>
+      <description>WAtching this TED video “The Best Teams Have THis Secret Weapon” https://www.facebook.com/TED/videos/10160362470800652/ made me want to transcribe parts of it.
+“In 2010, the Miami Heat tried to build a dream team around LeBron James and two other stars, and LeBron promised that they would win some championships……
+But they struggled to even win close games in the regular season. So the next year, instead of picking up another star, they added Shane Battier.</description>
+    </item>
+    
+  </channel>
+</rss>
